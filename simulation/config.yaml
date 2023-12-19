@@ -1,0 +1,10 @@
+node:
+  num_node: 2
+  x: [1,10]
+  y: [2,5]
+sim:
+beacon:
+  num_beacon: 4
+  x: [-2,3,5,8]
+  y: [10,0,4,9]
+
