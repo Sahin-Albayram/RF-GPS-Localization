@@ -29,9 +29,16 @@ class Simulation:
         for i in range(len(self.theta)): # for each node
             self.theta[i] = self.theta[i]/1000
 
+        for i in range(len(self.theta)):
+            print(round(self.theta[i][0],2), end= " ")
+        print(" ")
+        for i in range(len(self.theta)):
+            print(round(self.theta[i][1],2), end= " ")
+        print(" ")
+        for i in range(len(self.theta)):
+            print(round(self.theta[i][2],2), end= " ")
+        print(" ")
 
-        print(self.theta[0][0],self.theta[0][1],self.theta[0][2])
-        print(self.theta[1][0],self.theta[1][1],self.theta[1][2])
 
 
     def create_beacons(self): # Create beacons (drones)
