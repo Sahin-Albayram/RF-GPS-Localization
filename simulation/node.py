@@ -1,7 +1,10 @@
 
 class Node:
-    def __init__(self,x,y) -> None:
+    def __init__(self,x,y,z):
         self.x = x
         self.y = y
-        
-        pass
+        self.z = z
+
+    def coord(self):
+        return self.x , self.y, self.z
+
